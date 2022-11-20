@@ -1,0 +1,12 @@
+.title {
+    margin-top: 50px;
+    background-color: rgb(243, 231, 12);
+}
+
+.title h1{
+    font-size: 90px;
+}
+
+.title :hover {
+    background-color: rgb(23, 233, 166);;
+}
