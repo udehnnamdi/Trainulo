@@ -1,0 +1,12 @@
+.dropdown-item:hover {
+    background-color: rgb(112, 115, 116);
+    color: white;
+  }
+  .dropdown-text:hover {
+    background-color: white;
+  }
+
+  .manage {
+    position:absolute;
+    right: 7px
+  }

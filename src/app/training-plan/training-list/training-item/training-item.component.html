@@ -1,0 +1,14 @@
+<a 
+style="cursor: pointer;"
+[routerLink]="[index]"
+class="list-group-item  
+border border-dark rounded items 
+d-flex justify-content-between mb-2" >
+        <div class="ms-3">
+            <h4 class="list-group-item-heading">{{plan.name}}</h4>
+            <p class="list-group-item-text">{{plan.description}}</p>
+        </div>
+        <span class="">
+            <img [src]="plan.imagePath" alt={{plan.name}} class="img-responsive  mt-2 me-1" style="max-height: 60px;">
+        </span>
+ </a>
